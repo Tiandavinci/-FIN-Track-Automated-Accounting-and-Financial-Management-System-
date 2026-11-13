@@ -1,7 +1,41 @@
 # -FIN-Track-Automated-Accounting-and-Financial-Management-System-
 
-FIN-Track is a Java-based application designed to help users manage accounting and financial records in an organized way.
+Team Name: FINDING MIMO
+Team Number: 3
+Section: BSIT - 2104
 
-A lot of people and small businesses still track their money using notebooks or scattered spreadsheets. It takes time, mistakes happen easily, and it is hard to see where the money is actually going. This mostly affects individuals who want to keep track of their daily spending, as well as small business owners and bookkeepers who handle sales and expenses regularly. 
-It is worth solving because organized records make budgeting and decision-making much easier. FIN Track: Automated Accounting and Financial Management System is a Java-based application that automates recording, categorizing, and summarizing transactions, so users can manage their finances faster and with fewer errors. 
+## Project Description
+FIN Track is a Java-based Automated Accounting and Financial Management System designed to help individuals and small businesses manage their financial records more efficiently. The system allows users to record, categorize, monitor, and summarize income and expenses in one organized application.
+
+It provides features such as transaction management, financial summaries, category reports, monthly budget monitoring, and data storage. By automating these accounting tasks, FIN Track aims to reduce manual recording errors, save time, and help users make better financial decisions.
+
+
+## Problem Being Address
+Many individuals and small businesses still rely on notebooks or scattered spreadsheets to track their financial transactions. This manual process can be time-consuming, difficult to organize, and prone to errors.
+
+It can also be challenging to monitor spending habits, calculate balances, and determine where money is being spent. FIN Track addresses these problems by providing an organized system for recording and managing financial transactions.
+
+## Project Objectives
+To develop a Java-based application that will automate accounting tasks and manage personal and business finances by recording, organizing, and reporting financial transactions accurately and efficiently. 
+
+## Target User
+-Individual
+-Small Business Owner
+-Bookkeeper
+
+## Main Features
+
+
+## Technology Used
+
+
+## Team Members & Roles
+
+## Team Responsibilities
+
+## OOP Concepts Demonstrated
+
+## Program Flow
+
+
 
