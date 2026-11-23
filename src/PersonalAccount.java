@@ -1,6 +1,6 @@
 package fintrack;
 
-/** Personal account: no tax. */
+//personal acc no tax
 public class PersonalAccount extends Account {
     public PersonalAccount(String username, String passwordHash) { super(username, passwordHash); }
 
