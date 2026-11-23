@@ -1,6 +1,6 @@
 package fintrack;
 
-/** Business account: estimates 12% tax on the net balance. */
+//business acc may 12% tax sa net balance
 public class BusinessAccount extends Account {
     private final String businessName;
 
@@ -11,6 +11,6 @@ public class BusinessAccount extends Account {
     }
 
     @Override public String type() { return "BUSINESS"; }
-    @Override public double tax() { return Math.max(0, balance()) * 0.12; }
+    @Override public double tax() { return Math.max(0, balance()) * 0.12; } //ito yung 12% tax
     @Override public String businessName() { return businessName; }
 }
