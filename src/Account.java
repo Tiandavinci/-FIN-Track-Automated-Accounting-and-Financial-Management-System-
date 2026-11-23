@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-/** A user's ledger. Personal and Business accounts extend this and differ only in the tax they estimate. */
+// A user's ledger. Personal and Business accounts extend this and differ only in the tax they estimate.
 public abstract class Account {
     public final String username;
     public final String passwordHash;
@@ -18,7 +18,7 @@ public abstract class Account {
         this.passwordHash = passwordHash;
     }
 
-    // ----- password -----
+    //pass
     public static String hash(String password) {
         try {
             byte[] bytes = MessageDigest.getInstance("SHA-256").digest(password.getBytes(StandardCharsets.UTF_8));
@@ -30,7 +30,7 @@ public abstract class Account {
 
     public boolean checkPassword(String password) { return passwordHash.equals(hash(password)); }
 
-    // ----- transactions -----
+    //transac
     public void add(Transaction t) { transactions.add(t); }
 
     public void delete(int id) { transactions.removeIf(t -> t.id == id); }
@@ -53,7 +53,7 @@ public abstract class Account {
         return found;
     }
 
-    // ----- totals -----
+    //total
     public double total(boolean income) {
         double sum = 0;
         for (Transaction t : transactions) if (t.income == income) sum += t.amount;
