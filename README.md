@@ -24,12 +24,40 @@ To develop a Java-based application that will automate accounting tasks and mana
 -Bookkeeper
 
 ## Main Features
+Transaction Recording - Add income and expenses with date, description, amount, and category.
+
+Transaction Management - View all transactions, search by keyword, and delete records.
+
+Financial Summary - Total income, total expenses, net balance, and estimated tax for business 
+accounts.
+Category Report - Expense totals and percentages for each category.
+
+Budget Monitoring - Monthly budget with warnings when spending nears or exceeds it.
+
+Data Persistence - Records are saved to a file and reloaded on the next run.
 
 
 ## Technology Used
+Java
 
+Java Development Kit (JDK)
+
+GitHub
+
+Java IDE
 
 ## Team Members & Roles
+Oquin, Edmel Christian - Project Leader: coordination, deadlines, check-in reports, Main menu 
+flow.
+
+Ilagan, Jaybee Jr. - Lead Programmer: Transaction and Account class hierarchies, exception 
+handling.
+
+Martinez, Juan Carlo Gabriel - System/Design Lead: requirements, UML diagram, ReportGenerator, 
+FileStorage.
+
+Matira, Adhyson - Documentation: README, test cases and screenshots, InputReader, 
+presentation materials.
 
 ## Team Responsibilities
 
