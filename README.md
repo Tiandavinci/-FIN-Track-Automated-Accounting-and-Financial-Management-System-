@@ -19,8 +19,10 @@ It can also be challenging to monitor spending habits, calculate balances, and d
 To develop a Java-based application that will automate accounting tasks and manage personal and business finances by recording, organizing, and reporting financial transactions accurately and efficiently. 
 
 ## Target User
--Individual
+-Individual / Person User
+
 -Small Business Owner
+
 -Bookkeeper
 
 ## Main Features
