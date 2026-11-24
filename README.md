@@ -73,6 +73,14 @@ Encapsulation - The transaction list in Account is private. It can only be chang
 Inheritance - PersonalAccount and BusinessAccount both extend Account. They reuse the password check, the transaction list, the totals and the budget, and add only what is different. BusinessAccount adds a business name and a tax rule.
 
 Polymorphism - type(), tax() and businessName() are overridden in each subclass. The server calls a.tax() on any Account, and the result depends on the real object. A PersonalAccount returns 0. A BusinessAccount returns 12% of its positive balance. The same report code works for both account types.
+
+Abstraction - Account is an abstract class with the abstract methods type() and tax(). It defines what every account must provide and leaves each subclass to decide how. The web server only works with Account and doesn’t need to know which kind it is. FileStorage also hides the file format from the rest of the system.
+
+Exception Handling - Invalid input throws IllegalArgumentException, for example a blank description, a bad amount, a short password, a duplicate username or a wrong date format. The server catches it and sends the message back to 
+the page. FileStorage.load() catches parsing errors and rethrows them as an IOException (“Corrupted data file”). A general catch in the server returns a server-error message, so the program doesn’t crash.
+
+Array / Data Handling - ArrayList<Transaction> holds each account’s transactions. A double[] in expensesByCategory() holds spending per category, indexed by the Category enum. A HashMap in the server maps login tokens to logged-in accounts. Data is saved to one text file per user (data/<username>.txt), so it persists between runs.
+
 ## Program Flow
 
 
