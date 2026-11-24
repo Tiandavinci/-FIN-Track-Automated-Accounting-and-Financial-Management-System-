@@ -71,6 +71,8 @@ Methods - Each account does its own work through methods such as add(), delete()
 Encapsulation - The transaction list in Account is private. It can only be changed through add() and delete(). list() returns a copy so outside code can’t alter the real list. Transaction fields are final, so an entry can’t be changed after it is created. Its constructor also rejects a blank description or an amount of zero or less.
 
 Inheritance - PersonalAccount and BusinessAccount both extend Account. They reuse the password check, the transaction list, the totals and the budget, and add only what is different. BusinessAccount adds a business name and a tax rule.
+
+Polymorphism - type(), tax() and businessName() are overridden in each subclass. The server calls a.tax() on any Account, and the result depends on the real object. A PersonalAccount returns 0. A BusinessAccount returns 12% of its positive balance. The same report code works for both account types.
 ## Program Flow
 
 
