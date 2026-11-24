@@ -57,13 +57,13 @@ Martinez, Juan Carlo Gabriel - System/Design Lead
 Matira, Adhyson - Documentation
 
 ## Team Responsibilities
-Oquin, Edmel Christian - Project Leader: Responsible for coordinating the team, monitoring deadlines, checking progress reports, and overseeing the main menu and program flow.
+Oquin, Edmel Christian - Responsible for coordinating the team, monitoring deadlines, checking progress reports, and overseeing the main menu and program flow.
 
-Ilagan, Jaybee Jr. - Lead Programmer: Responsible for developing the transaction and account class hierarchies, implementing exception handling, and ensuring the program's functionality.
+Ilagan, Jaybee Jr. - Responsible for developing the transaction and account class hierarchies, implementing exception handling, and ensuring the program's functionality.
 
-Martinez, Juan Carlo Gabriel - System/Design Lead: Responsible for gathering system requirements, creating the UML diagram, and developing the ReportGenerator and FileStorage components.
+Martinez, Juan Carlo Gabriel - Responsible for gathering system requirements, creating the UML diagram, and developing the ReportGenerator and FileStorage components.
 
-Matira, Adhyson - Documentation: Responsible for preparing the README, creating test cases, gathering screenshots, preparing the InputReader component, and making presentation materials.
+Matira, Adhyson - Responsible for preparing the README, creating test cases, gathering screenshots, preparing the InputReader component, and making presentation materials.
 
 ## OOP Concepts Demonstrated
 Class and Objects - Each real-world thing in the system is a class: Account, Transaction, FileStorage and so on. Objects are created at run time. Each registered user becomes a PersonalAccount or BusinessAccount object. Each income or expense entry becomes a Transaction object stored in that account.
