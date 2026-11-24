@@ -64,7 +64,13 @@ Martinez, Juan Carlo Gabriel - System/Design Lead: Responsible for gathering sys
 Matira, Adhyson - Documentation: Responsible for preparing the README, creating test cases, gathering screenshots, preparing the InputReader component, and making presentation materials.
 
 ## OOP Concepts Demonstrated
+Class and Objects - Each real-world thing in the system is a class: Account, Transaction, FileStorage and so on. Objects are created at run time. Each registered user becomes a PersonalAccount or BusinessAccount object. Each income or expense entry becomes a Transaction object stored in that account.
 
+Methods - Each account does its own work through methods such as add(), delete(), search(), total(), balance(), spentThisMonth() and expensesByCategory(). FileStorage has save() and load(). FinTrackServer has helper methods for registering, logging in and adding transactions.
+
+Encapsulation - The transaction list in Account is private. It can only be changed through add() and delete(). list() returns a copy so outside code can’t alter the real list. Transaction fields are final, so an entry can’t be changed after it is created. Its constructor also rejects a blank description or an amount of zero or less.
+
+Inheritance - PersonalAccount and BusinessAccount both extend Account. They reuse the password check, the transaction list, the totals and the budget, and add only what is different. BusinessAccount adds a business name and a tax rule.
 ## Program Flow
 
 
