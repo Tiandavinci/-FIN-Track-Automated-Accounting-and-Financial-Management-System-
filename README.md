@@ -82,6 +82,13 @@ the page. FileStorage.load() catches parsing errors and rethrows them as an IOEx
 Array / Data Handling - ArrayList<Transaction> holds each account’s transactions. A double[] in expensesByCategory() holds spending per category, indexed by the Category enum. A HashMap in the server maps login tokens to logged-in accounts. Data is saved to one text file per user (data/<username>.txt), so it persists between runs.
 
 ## Program Flow
+The user starts the program, which loads saved records or creates a new personal or business account. From the Main Menu, the user selects an operation, enters the information, and the program validates the input, processes the request (updating the ledger or computing a report), and displays the result before returning to the Main Menu. Choosing Save and Exit stores the records and ends the program.
+
+
+
+
+
+
 
 
 
