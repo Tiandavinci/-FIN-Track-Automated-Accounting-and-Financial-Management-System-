@@ -45,21 +45,23 @@ Java Development Kit (JDK)
 GitHub
 
 Java IDE
-
 ## Team Members & Roles
-Oquin, Edmel Christian - Project Leader: coordination, deadlines, check-in reports, Main menu 
-flow.
+Oquin, Edmel Christian - Project Leader
 
-Ilagan, Jaybee Jr. - Lead Programmer: Transaction and Account class hierarchies, exception 
-handling.
+Ilagan, Jaybee Jr. - Lead Programmer
 
-Martinez, Juan Carlo Gabriel - System/Design Lead: requirements, UML diagram, ReportGenerator, 
-FileStorage.
+Martinez, Juan Carlo Gabriel - System/Design Lead
 
-Matira, Adhyson - Documentation: README, test cases and screenshots, InputReader, 
-presentation materials.
+Matira, Adhyson - Documentation
 
 ## Team Responsibilities
+Oquin, Edmel Christian - Project Leader: Responsible for coordinating the team, monitoring deadlines, checking progress reports, and overseeing the main menu and program flow.
+
+Ilagan, Jaybee Jr. - Lead Programmer: Responsible for developing the transaction and account class hierarchies, implementing exception handling, and ensuring the program's functionality.
+
+Martinez, Juan Carlo Gabriel - System/Design Lead: Responsible for gathering system requirements, creating the UML diagram, and developing the ReportGenerator and FileStorage components.
+
+Matira, Adhyson - Documentation: Responsible for preparing the README, creating test cases, gathering screenshots, preparing the InputReader component, and making presentation materials.
 
 ## OOP Concepts Demonstrated
 
