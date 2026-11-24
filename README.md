@@ -86,9 +86,11 @@ Array / Data Handling - ArrayList<Transaction> holds each account’s transactio
 ## Program Flow
 The user starts the program, which loads saved records or creates a new personal or business account. From the Main Menu, the user selects an operation, enters the information, and the program validates the input, processes the request (updating the ledger or computing a report), and displays the result before returning to the Main Menu. Choosing Save and Exit stores the records and ends the program.
 
-Start 
+Start
+
 ↓ 
 Load Saved Data / Create Account
+
 ↓ 
 Main Menu 
 ↓ 
